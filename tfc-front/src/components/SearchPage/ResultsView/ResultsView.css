@@ -1,0 +1,17 @@
+.studio-item {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0.1vw 0.5vw 0 #00000066;
+    cursor: pointer;
+}
+
+.studio-item:hover {
+    box-shadow: 0 0.1vw 0.5vw 0 #00000066;
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+}

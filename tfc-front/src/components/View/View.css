@@ -1,0 +1,71 @@
+.view-container h1 {
+    text-shadow: 2px 2px 5px orange;
+    font-size: 6vmin;
+    font-weight: bold;
+    margin-top: 15vh;
+    text-align: center;
+}
+.view-container h2 {
+    margin-left: 4%;
+    font-size: 3vmin;
+}
+.view-container p {
+    color: #B4886B;
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 3.5vmin;
+}
+
+.view-container .like-a-p {
+    color: #B4886B;
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 3.5vmin;
+}
+
+.edit-link {
+    font-weight: 400;
+    text-align: right;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    display: block;
+    color: darkblue;
+    font-size: 3vmin;
+    text-decoration: underline;
+}
+
+.add-card-btn {
+    background-color: orange;
+    font-weight: 600;
+    width: 15vw;
+    height: 7vh;
+    font-size: 2.5vmin;
+    border-radius: 10px;
+    margin-left: 4%;
+    margin-bottom: 2%;
+}
+.payment-container {
+    display: flex;
+}
+
+.payment-btn {
+    background-color: orange;
+    font-weight: 600;
+    width: 15vw;
+    height: 7vh;
+    font-size: 2.5vmin;
+    border-radius: 10px;
+    margin-left: 4%;
+    margin-bottom: 10%;
+}
+.view-logo {
+    color: black;
+}
+
+.direct:hover {
+    cursor: pointer;
+}
+.value {
+    color: black;
+    margin-left: 3%;
+}

@@ -1,0 +1,26 @@
+.account-page {
+    position: relative;
+    top: 65px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.account-page img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vw;
+}
+
+.account-page p {
+    text-align: center;
+    font-size: 2.2vw;
+}
+
+.account-page h1 {
+    margin-top: 5vh;
+    color: darkorange;
+    text-align: center;
+    font-size: 4vw;
+
+}

@@ -1,0 +1,94 @@
+.search-page {
+    position: relative;
+    top: 65px;
+    width: calc(100% - 40px);
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.search-title {
+    color: #202020;
+    font-size: 1.8em;
+}
+
+.input-location {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.input-location li {
+    margin-right: 10px;
+}
+
+
+.input-location li input {
+    height: 30px;
+}
+
+.get-my-loc-button {
+    height: 30px;
+    background-color: #f3ad5c !important;
+}
+
+/* The following code is for the React tags input field (npm i react-tag-input)
+    and has been inspired by https://stackblitz.com/edit/react-tag-input-1nelrc?file=index.js,style.css */
+  /* for the input box */
+  .ReactTags__tagInput input.ReactTags__tagInputField,
+  .ReactTags__tagInput input.ReactTags__tagInputField:focus {
+    height: 31px;
+    margin: 10px 0 10px 0;
+    font-size: 12px;
+    width: 100%;
+    border: 1px solid #eee;
+  }
+  
+  /* Styles for selected tags */
+  .ReactTags__selected span.ReactTags__tag {
+    border: 1px solid #ddd;
+    background: #f3ad5c;
+    color: white;
+    font-size: 12px;
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    border-radius: 2px;
+  }
+  /* For the X buttons */
+  .ReactTags__remove {
+    border: none;
+    cursor: pointer;
+    background: none;
+    color: white;
+  }
+  /* tag css ends here */
+  .error {
+    color: red;
+  }
+.tag-titles {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.search-button {
+    background-color: #f3ad5c !important;
+}
+
+
+/* small screen */
+@media screen and (max-width: 750px) {
+
+    .input-location {
+        list-style: none;
+        display: block;
+        align-items: center;
+        padding: 0;
+    }
+
+    .input-location li {
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

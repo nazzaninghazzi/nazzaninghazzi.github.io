@@ -1,0 +1,14 @@
+
+.studio-page-class-item {
+    padding: 10px;
+    border-top: 2px solid #eee;
+}
+
+.no-margin-padding {
+    margin: 0px;
+    padding: 0px;
+}
+
+.lignt-color {
+    color: #484848;
+}

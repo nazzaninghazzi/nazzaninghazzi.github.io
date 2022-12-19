@@ -1,0 +1,56 @@
+.future-payment-page {
+    position: relative;
+    top: 65px;
+    width: calc(100% - 40px);
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.future-payment-page p {
+    font-size: 3.5vmin;
+    font-weight: bold;
+}
+
+.future-payment-page table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.future-payment-page th {
+    border-bottom: 1px solid #ddd;
+    padding: 2.5vmin;
+    font-size: 3.5vmin;
+}
+
+.future-payment-page td {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding: 2.5vmin;
+    font-size: 3vmin;
+}
+
+.prev-btn {
+    background-color: orange;
+    font-weight: 600;
+    width: 8vw;
+    height: 5vh;
+    font-size: 2.5vmin;
+    border-radius: 10px;
+    margin-top: 3vh;
+    margin-left: 3vw;
+}
+
+.next-btn {
+    background-color: orange;
+    font-weight: 600;
+    width: 8vw;
+    height: 5vh;
+    font-size: 2.5vmin;
+    border-radius: 10px;
+    margin-top: 3vh;
+    margin-left: 75vw;
+}
+
+.btn-container {
+    display: flex;
+}

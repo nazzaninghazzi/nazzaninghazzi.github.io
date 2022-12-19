@@ -1,0 +1,101 @@
+.background_image {
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    opacity: 0.86;
+    background-position: center;
+    position: static;
+}
+
+.login-container {
+    background-color: white;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 35vw;
+    height: 65vh;
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: 10px
+}
+
+.login-container h1 {
+    text-shadow: 2px 2px 5px orange;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 6vmin;
+}
+
+.login-query1 {
+    position: absolute;
+    top: 15%;
+    left: 3%;
+    font-size: 4vmin;
+}
+
+.login-query2 {
+    position: absolute;
+    top: 38%;
+    left: 3%;
+    font-size: 4vmin;
+}
+
+.login-input1 {
+    width: 34vw;
+    height: 3.5vh;
+    font-size: 3.5vmin;
+    position: absolute;
+    left: 3%;
+    top: 32%;
+}
+
+.login-input2 {
+    width: 34vw;
+    height: 3.5vh;
+    font-size: 3.5vmin;
+    position: absolute;
+    left: 3%;
+    top: 55%;
+}
+
+.login-container button {
+    background-color: orange;
+    font-weight: 600;
+    width: 20vw;
+    height: 7vh;
+    font-size: 4vmin;
+    border-radius: 10px;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.login-container h5 {
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3vmin;
+}
+
+.signup-link {
+    color: darkblue;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 4vmin;
+}
+
+.signin-error {
+    font-weight: bold;
+    color: red;
+    font-size: 3vmin;
+    position: absolute;
+    top: 63%;
+}

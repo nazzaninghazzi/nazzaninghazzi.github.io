@@ -1,0 +1,39 @@
+.class-history-page h1 {
+    text-shadow: 2px 2px 5px orange;
+    font-size: 6vmin;
+    font-weight: bold;
+    margin-top: 8vh;
+    text-align: center;
+}
+
+.class-history-page {
+    position: relative;
+    top: 65px;
+    width: calc(100% - 40px);
+    padding: 20px;
+    min-height: 100vh;
+}
+
+
+.class-history-page table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.class-history-page th {
+    border-bottom: 1px solid #ddd;
+    padding: 2.5vmin;
+    font-size: 3.5vmin;
+}
+
+.class-history-page td {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding: 2.5vmin;
+    font-size: 3vmin;
+}
+
+.schedule-container{
+    display: flex;
+    margin-top: 2%;
+}
